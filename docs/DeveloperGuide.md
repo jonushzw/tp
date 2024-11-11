@@ -9,7 +9,7 @@
 <!-- * Table of Contents -->
 <page-nav-print />
 
---------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## **Acknowledgements**
 
@@ -88,6 +88,8 @@ The `UI` component,
 * keeps a reference to the `Logic` component, because the `UI` relies on the `Logic` to execute commands.
 * depends on some classes in the `Model` component, as it displays `Person` object residing in the `Model`.
 
+<div style="page-break-after: always;"></div>
+
 ### Logic component
 
 **API** : [<u>`Logic.java`</u>](https://github.com/AY2425S1-CS2103T-W13-4/tp/blob/master/src/main/java/seedu/address/logic/Logic.java)
@@ -132,6 +134,8 @@ The `Model` component,
 * stores a `UserPref` object that represents the user’s preferences. This is exposed to the outside as a `ReadOnlyUserPref` objects.
 * does not depend on any of the other three components (as the `Model` represents data entities of the domain, they should make sense on their own without depending on other components)
 
+<div style="page-break-after: always;"></div>
+
 ### Storage component
 
 **API** : [<u>`Storage.java`</u>](https://github.com/AY2425S1-CS2103T-W13-4/tp/blob/master/src/main/java/seedu/address/storage/Storage.java)
@@ -164,6 +168,8 @@ The `Wedding` class represents a wedding event in KnottyPlanners. It includes de
 * `View Wedding`: Displays participants of a specific `Wedding`.
 
 Refer to our [**User Guide**](https://ay2425s1-cs2103t-w13-4.github.io/tp/UserGuide.html) for more information on how to use these functions associated with the Wedding Class.
+
+<div style="page-break-after: always;"></div>
 
 ### [StaticContext](https://github.com/AY2425S1-CS2103T-W13-4/tp/blob/master/src/main/java/seedu/address/logic/StaticContext.java) - Confirmation Prompting for Deletion and Clear Commands
 
@@ -215,8 +221,9 @@ Here is an example usage scenario and how `StaticContext` is used in KnottyPlann
 * [Logging guide](Logging.md)
 * [Configuration guide](Configuration.md)
 * [DevOps guide](DevOps.md)
-
 --------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always;"></div>
 
 ## **Appendix: Planned Enhancements**
 
@@ -227,8 +234,8 @@ Currently: The view wedding command in KnottyPlanners does not require a need fo
 Plan: To make the association of `Wedding` and `Person` more intuitive, we will change the prefix from 't/' to 'w/', representing the `Wedding` that a `Person` is associated with.
 
 // Support for Multi-Languages
- 
---------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always;"></div>
 
 ## **Appendix: Requirements**
 
@@ -606,6 +613,8 @@ or could-have.
 (e.g., contact successfully added or an error message).
 
 --------------------------------------------------------------------------------------------------------------------
+
+<div style="page-break-after: always;"></div>
 
 ## **Appendix: Instructions for manual testing**
 
